@@ -1,0 +1,16 @@
+:local(.app) {
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+:local(.todoListList) {
+    width: 250px;
+    height: fit-content;
+}
+
+:local(.todoList) {
+    margin-left: 20px;
+    width: 800px;
+}

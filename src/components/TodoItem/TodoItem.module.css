@@ -1,0 +1,14 @@
+:local(.todoItem) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+:local(.todoItem.checked) {
+    background-color: #ddd;
+}
+
+:local(.trash) {
+    height: 1.5em;
+    cursor: pointer;
+}
